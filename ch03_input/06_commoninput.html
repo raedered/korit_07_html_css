@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>공통 input 속성</title>
+</head>
+<body bgcolor="5f5f5f">
+  <h1>인풋 요소 공통(대부분) 속성</h1>
+  <form action="">
+    <label for="">value</label> 
+    <input id="valIp" type="text" value="지정됨">
+    <br><br>
+    <label for="">autofocus</label>
+    <input id="afIp" type="text" placeholder="자동 포커스됨">
+    <br><br>
+    <label for="">raadonly</label>
+    <input id="rdIp" type="text" value="읽기만 가능, 전송됨" readonly>
+    <br><br>
+    <label for="">disabled</label>
+    <input type="text" placeholder="입력 불가, 전송안됨" disabled>
+    <br><br>
+    <label for="">required</label>
+    <input id="rpIp" type="text" placeholder="필수 입력" required>
+    <br><br>
+    <input type="radio" name="fruit" id="apple" value="apple" checked>
+    <label for="">사과</label>
+    <input type="radio" name="fruit" id="grape" value="grape" checked>
+    <label for="">포도</label>
+    <input type="radio" name="fruit" id="orange" value="orange" disabled>
+    <label for="">오랜지(품절)</label>
+    <br><br>
+    <button type="submit">제출</button>
+  </form>
+</body>
+</html>
