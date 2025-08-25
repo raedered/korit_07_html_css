@@ -1,0 +1,7 @@
+/* ul > li:not(:last-child) {
+  border-bottom: 2px solid black;
+} */
+
+ul > li:not(:first-child) { /* nth-child(1)로 해도됨 */
+  border-top: 2px solid black;
+}
